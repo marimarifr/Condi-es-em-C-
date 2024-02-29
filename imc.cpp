@@ -41,5 +41,26 @@ int main()
     {
         std::cout<<"Peso Normal!";
     }
+
+    else if ( imc >= 25 && imc < 30 )
+    {
+        std::cout<<"Acima do peso";
+    }
+
+    else if ( imc >= 30 && imc < 35 )
+    {
+        std::cout<<"Obesidade!";
+    }
+
+    else if ( imc >= 35 && imc < 40 )
+    {
+        std::cout<<"Obesidade Severa!!!";
+    }
+
+    else if ( imc >= 40 )
+    {
+        std::cout<<"Obesidae Mórbida!!!!!!";
+    }
+
     return 0;
 }
