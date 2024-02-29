@@ -1,11 +1,9 @@
 #include <iostream>
-#include <locale.h>
 
 using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese_Brasil");
     int ano;
         
     cout << "Insira o ano:";
@@ -13,11 +11,11 @@ int main()
 
     if (ano % 4 == 0 && ano % 100 !=0)
     {
-        cout << "Uau um ano bissexto, com 366 dias!";
+        cout << "Uau um ano bissexto, com 366 dias ;)";
     }
     else if (ano % 400 == 0)
     {
-        cout << "Uau um ano bissexto, com 366 dias :]";
+        cout << "Uau um ano bissexto, com 366 dias ;)";
     }
 
     else
