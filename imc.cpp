@@ -59,7 +59,7 @@ int main()
 
     else if ( imc >= 40 )
     {
-        std::cout<<"Obesidae Mórbida!!!!!!";
+        std::cout<<"Obesidade Mórbida!!!!!!";
     }
 
     return 0;
